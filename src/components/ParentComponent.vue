@@ -9,5 +9,5 @@
     <p class="my-5">
         {{ message }}
     </p>
-    <ChildComponent v-model="message"/>
+    <ChildComponent v-model:message="message"/>
 </template>
